@@ -1,0 +1,167 @@
+body{
+  background-color: rgb(96, 244, 163);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
+.subbody{
+  background-color: rgb(195, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 20rem;
+  flex-direction: column;
+  margin: 5rem;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 35%;
+  
+
+}
+select{
+  height: 2rem;
+  border-radius: 10px;
+  
+  
+}
+input, select{
+  height: 2rem;
+  border-radius: 10px;
+  border-style: none;
+  width: 12rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  
+  
+
+
+}
+label{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+button{
+  margin-top: 1rem;
+  width: 5.5rem;
+  height: 3rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.subbody, .myAdd {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button,
+a {
+  transition: background-color 0.3s ease;
+}
+button:hover{
+  background-color: rgb(127, 47, 255);
+}
+.myAdd{
+  
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+ 
+background-color: aqua;
+width: 8rem;
+height: fit-content;
+/* margin: 12rem; */
+border-radius: 12px;
+padding: 6px;
+margin-top: -4rem;
+margin-bottom: 5rem;
+margin-left: 45%;
+}
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+nav{
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+  margin-top: 2rem;
+}
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: white;
+
+}
+
+/*   #dataDisplay table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #dataDisplay th, #dataDisplay td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  #dataDisplay th {
+    background-color: #f2f2f2;
+  } */
+
+    table {
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background: #4CAF50;
+    color: white;
+  }
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .subbody {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
+  input, select {
+    width: 100%;
+  }
+.mybtn{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 50%;
+}
+  .myAdd {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+}
+

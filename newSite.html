@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>365 IMPREST</title>
+  <link rel="stylesheet" href="newSite.css">
+</head>
+<body>
+  <nav>
+    <!-- <a href="index.html">IMPREST</a> -->
+    <a href="#">356 IMPREST</a>
+  </nav>
+
+  
+  <div class="subbody">
+    <h1>Welcome to 356 IMPREST</h1>
+    <form  id="imprestForm" method="post">
+      <label for="date">Date:</label><br>
+      <input type="date" placeholder="Enter date" id="date" required><br>
+
+      <label for="name">Name:</label><br>
+      <select name="name" id="name"  required>
+        <option value="">Select a name</option>
+        <option value="Seth Baffour Adiyah-Kusi">Seth Baffour Adiyah-Kusi</option>
+        <option value="Pamela Kissi Attram">Pamela Kissi Attram</option>
+        <option value="Kukie">Kukie</option>
+        <option value="Grace">Grace</option>
+        <option value="Solomon Opare">Solomon Opare</option>
+        <!-- <option value="firstName">Seth Baffour Adiyah-Kusi</option> -->
+      </select><br>
+  <!--     <label for="department">Dept:</label><br>
+      <select name="department" id="department" required>
+        <option value="">Select a Department</option>
+        <option value="Professional Fees">Professional Fees</option>
+        <option value="Boss">Boss</option>
+        <option value="ware house">ware house</option>
+      </select><br> -->
+      <label for="split">Split:</label><br>
+      <select name="split" id="split" required>
+        <option value="">Select a split</option>
+        <option value=" The funneral Handlers">The funneral Handlers</option>
+        <option value="Salaries">Salaries</option>
+        <option value="Admin">Admin</option>
+        <option value="Event 365">Event 365</option>
+        <option value="Personal">Personal</option>
+      </select><br>
+      <label for="amount">Amount:</label><br>
+      <input type="number" placeholder="Enter amount" id="amount"><br>
+      <label for="memo">Memo:</label><br>
+      <input type="text" placeholder="Enter Memo" id="memo"><br>
+    
+    </form>
+    <div class="mybtn">
+      <button id="saveBtn">Save</button>
+      <button  id="viewDataBtn">View Data</button>
+    </div>
+  </div>
+  <div class="myAdd">
+    <button id="addNameBtn">Add New Name</button>
+    <!-- <button id="addDeptBtn">Add New Department</button> -->
+    <button id="addSplitBtn">Add New Split</button>
+  </div>
+    <div id="dataDisplay" style="margin-top: 20px;"></div>
+ 
+
+<!--   <button id="clearDataBtn">Clear Data</button>  -->
+
+
+  <script src="newSite.js" ></script>
+</body>
+</html>
